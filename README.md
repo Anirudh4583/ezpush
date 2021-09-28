@@ -21,13 +21,13 @@
 ## Install
 
 ```sh
-#  using npm
+#  with npm
 npm i -g ezpush
 
-# using yarn
+# with yarn
 yarn add global ezpush
 
-# using github repo with npm
+# with npm using the github repo
 npm i -g git+https://github.com/Anirudh4583/ezpush.git
 ```
 
@@ -39,6 +39,15 @@ ezpush <commit message> --options <arguments>
 OPTIONS
   --skip or -s                      skip commit message and use default
   --branch or -b <branch name>      specify branch, defaults to master
+```
+
+```sh
+ezpush "first commit" # pushes to origin master with entered commit message
+
+ezpush -s # pushes to origin master with default commit message
+
+ezpush "first commit" -b main # pushes to origin main with entered commit message
+
 ```
 
 ## Author
