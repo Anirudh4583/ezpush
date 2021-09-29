@@ -1,6 +1,6 @@
 {
   "name": "ezpush",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple CLI to git add, commit and push in one go",
   "main": "src/cli.js",
   "bin": {
