@@ -25,7 +25,7 @@
 npm i -g ezpush
 
 # with yarn
-yarn add global ezpush
+yarn global add ezpush
 
 # with npm using the github repo
 npm i -g git+https://github.com/Anirudh4583/ezpush.git
